@@ -214,7 +214,7 @@
 
 .widget-container[data-widget-type="categories"]::-webkit-scrollbar,
 .widget-container[data-widget-type="tags"]::-webkit-scrollbar {
-  width: 4px;
+  width: 10px;
 }
 
 .widget-container[data-widget-type="categories"]::-webkit-scrollbar-track,
