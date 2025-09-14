@@ -182,6 +182,7 @@ export type AnnouncementConfig = {
 };
 
 export type MusicPlayerConfig = {
+	mode: string;
 	enable: boolean; // 是否启用音乐播放器功能
 };
 

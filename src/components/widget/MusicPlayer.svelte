@@ -12,7 +12,7 @@ import Key from "../../i18n/i18nKey";
 import { i18n } from "../../i18n/translation";
 
 // 音乐播放器模式，可选 "local" 或 "meting"，从本地配置中获取或使用默认值 "meting"
-let mode = musicPlayerConfig.mode ?? "meting";
+let mode = musicPlayerConfig.mode ?? "local";
 // Meting API 地址，从配置中获取或使用默认地址(bilibili.uno(由哔哩哔哩松坂有希公益管理)),服务器在海外,部分音乐平台可能不支持并且速度可能慢,也可以自建Meting API
 let meting_api =
 	musicPlayerConfig.meting_api ??
@@ -68,26 +68,66 @@ let volumeBar: HTMLElement;
 const localPlaylist = [
 	{
 		id: 1,
-		title: "ひとり上手",
-		artist: "Kaya",
-		cover: "assets/music/cover/hitori.jpg",
-		url: "assets/music/url/hitori.mp3",
-		duration: 240,
+		title: "もう一度キスしたかった",
+		artist: "B'z",
+		cover: "assets/music/cover/B'z - もう一度キスしたかった.jpg",
+		url: "assets/music/url/B'z - もう一度キスしたかった.mp3",
+		duration: 277,
 	},
 	{
 		id: 2,
-		title: "眩耀夜行",
-		artist: "スリーズブーケ",
-		cover: "assets/music/cover/xryx.jpg",
-		url: "assets/music/url/xryx.mp3",
-		duration: 180,
+		title: "Friends III",
+		artist: "B'z",
+		cover: "assets/music/cover/Friends III.png",
+		url: "assets/music/url/Friends III.m4a",
+		duration: 122,
 	},
 	{
 		id: 3,
-		title: "春雷の頃",
-		artist: "22/7",
-		cover: "assets/music/cover/cl.jpg",
-		url: "assets/music/url/cl.mp3",
+		title: "harunohi",
+		artist: "B'z",
+		cover: "assets/music/cover/Friends Ⅱ.png",
+		url: "assets/music/url/harunohi.flac",
+		duration: 200,
+	},
+	{
+		id: 4,
+		title: "ドリーム・ボートが出る夜に(2024 Remaster)",
+		artist: "Momoko Kikuchi",
+		cover: "assets/music/cover/ドリーム・ボートが出る夜に(2024 Remaster).png",
+		url: "assets/music/url/ドリーム・ボートが出る夜に(2024 Remaster).mp3",
+		duration: 233,
+	},
+	{
+		id: 5,
+		title: "どうしても君を失いたくない",
+		artist: "B'z",
+		cover: "assets/music/cover/どうしても君を失いたくない.png",
+		url: "assets/music/url/B'z - どうしても君を失いたくない.mp3",
+		duration: 200,
+	},
+	{
+		id: 6,
+		title: "SNOW",
+		artist: "B'z",
+		cover: "assets/music/cover/Friends Ⅱ.png",
+		url: "assets/music/url/SNOW.m4a",
+		duration: 200,
+	},
+	{
+		id: 7,
+		title: "BABY MOON",
+		artist: "B'z",
+		cover: "assets/music/cover/Friends Ⅱ.png",
+		url: "assets/music/url/BABY MOON.m4a",
+		duration: 200,
+	},
+	{
+		id: 3,
+		title: "Friends Ⅱ",
+		artist: "B'z",
+		cover: "assets/music/cover/Friends Ⅱ.png",
+		url: "assets/music/url/Friends Ⅱ.flac",
 		duration: 200,
 	},
 ];
@@ -352,7 +392,6 @@ onMount(() => {
 		}
 	}
 });
-
 
 onDestroy(() => {
 	if (audio) {

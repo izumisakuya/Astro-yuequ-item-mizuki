@@ -117,7 +117,7 @@ export const ja: Translation = {
 
 	// スキルページ
 	[Key.skills]: "スキル",
-	[Key.skillsSubtitle]: "技術スキルと専門知識",
+	[Key.skillsSubtitle]: "私の技術スキルと専門知識",
 	[Key.skillsFrontend]: "フロントエンド",
 	[Key.skillsBackend]: "バックエンド",
 	[Key.skillsDatabase]: "データベース",
@@ -144,7 +144,7 @@ export const ja: Translation = {
 
 	// タイムラインページ
 	[Key.timeline]: "タイムライン",
-	[Key.timelineSubtitle]: "開発の歩みと経験",
+	[Key.timelineSubtitle]: "経験",
 	[Key.timelineEducation]: "教育",
 	[Key.timelineWork]: "仕事",
 	[Key.timelineProject]: "プロジェクト",

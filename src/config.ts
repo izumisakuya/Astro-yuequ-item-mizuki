@@ -96,20 +96,20 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "BABY MOON", // 主页横幅主标题
+			title: "MOTEL", // 主页横幅主标题
 
 			subtitle: [
-				"Hi I'm Yugo,Yuequ,イズミさくや,spacerror.",
-				"止れないこの世界で 胸を張って生きるしかない",
-				"星が消えた ビルの海 夢を浮かべて 船が出るわ 幸せのdream boat",
-				"No chance to take,no heart to break",
+				"Hi, I'm Yugo, Yuequ, イズミさくや, spacerror.",
+				"止れないこの世界で  胸を張って生きるしかない",
+				"星が消えた ビルの海  夢を浮かべて 船が出るわ  幸せのdream boat",
+				"No chance to take, no heart to break",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
 
-				speed: 100, // 打字速度（毫秒）
+				speed: 200, // 打字速度（毫秒）
 				deleteSpeed: 50, // 删除速度（毫秒）
-				pauseTime: 2000, // 完全显示后的暂停时间（毫秒）
+				pauseTime: 8000, // 完全显示后的暂停时间（毫秒）
 			},
 		},
 
@@ -164,7 +164,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	position: "center", // 壁纸位置，等同于 object-position
 	carousel: {
 		enable: true, // 启用轮播
-		interval: 1, // 轮播间隔时间（秒）
+		interval: 3, // 轮播间隔时间（秒）
 	},
 	zIndex: -1, // 层级，确保壁纸在背景层
 	opacity: 0.8, // 壁纸透明度
@@ -258,7 +258,8 @@ export const announcementConfig: AnnouncementConfig = {
 };
 
 export const musicPlayerConfig: MusicPlayerConfig = {
-	enable: true, // 启用音乐播放器功能
+	enable: true,
+	mode: "local", // 音乐播放器模式，可选 "local" 或 "meting"
 };
 
 export const footerConfig: FooterConfig = {

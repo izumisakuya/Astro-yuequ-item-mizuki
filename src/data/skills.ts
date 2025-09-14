@@ -33,7 +33,7 @@ export const skillsData: Skill[] = [
 	{
 		id: "aegisub",
 		name: "Aegisub",
-		description: "偶尔给自己喜欢的电影做点特效，有兴趣的时候搞点B'z的MV",
+		description: "偶尔给自己喜欢的电影做点特效字幕，有兴趣的时候搞点B'z的MV",
 		icon: "logos/aws-codestar",
 		category: "frontend",
 		level: "beginner",
