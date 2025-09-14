@@ -182,6 +182,10 @@ export type AnnouncementConfig = {
 };
 
 export type MusicPlayerConfig = {
+    meting_api: string;
+    id: string;
+    server: string;
+    type: string;
 	mode: string;
 	enable: boolean; // 是否启用音乐播放器功能
 };

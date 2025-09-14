@@ -259,7 +259,11 @@ export const announcementConfig: AnnouncementConfig = {
 
 export const musicPlayerConfig: MusicPlayerConfig = {
 	enable: true,
-	mode: "local", // 音乐播放器模式，可选 "local" 或 "meting"
+	mode: "local",
+	meting_api: "",
+	id: "",
+	server: "",
+	type: ""
 };
 
 export const footerConfig: FooterConfig = {
@@ -440,3 +444,4 @@ export const widgetConfigs = {
 	fullscreenWallpaper: fullscreenWallpaperConfig,
 	pio: pioConfig, // 添加 pio 配置
 } as const;
+
