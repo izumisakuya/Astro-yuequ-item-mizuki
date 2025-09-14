@@ -347,6 +347,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 				collapseThreshold: 20,
 			},
 		},
+			{ type: "toc", enable: true, position: "sticky", order: 400, class: "pb-4 card-base onload-animation",  },//大纲移到左下角
 	],
 
 	// 默认动画配置
