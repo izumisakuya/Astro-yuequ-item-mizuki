@@ -93,11 +93,11 @@ export const en: Translation = {
 
 	// Projects page
 	[Key.projects]: "Projects",
-	[Key.projectsSubtitle]: "Showcase of my development projects",
-	[Key.projectsAll]: "All",
-	[Key.projectsWeb]: "Web",
+	[Key.projectsSubtitle]: "main projects and some interests",
+	[Key.projectsAll]: "little bit of everything",
+	[Key.projectsWeb]: "tools",
 	[Key.projectsMobile]: "Mobile",
-	[Key.projectsDesktop]: "Desktop",
+	[Key.projectsDesktop]: "many",
 	[Key.projectsOther]: "Other",
 	[Key.projectTechStack]: "Tech Stack",
 	[Key.projectLiveDemo]: "Live Demo",

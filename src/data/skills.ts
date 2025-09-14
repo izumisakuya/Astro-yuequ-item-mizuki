@@ -23,7 +23,7 @@ export const skillsData: Skill[] = [
 		id: "autoCAD",
 		name: "AutoCAD",
 		description: "我就一画图的，偶尔算算系数，处理点数据",
-		icon: "skill-icons:autocad",
+		icon: "skill-icons/autocad-light",
 		category: "frontend",
 		level: "advanced",
 		experience: { years: 7, months: 6 },
