@@ -138,7 +138,7 @@ export const siteConfig: SiteConfig = {
 	],
 };
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
-	enable: true, // 启用全屏壁纸功能,非Banner模式下生效
+	enable: false, // 启用全屏壁纸功能,非Banner模式下生效
 	src: {
 		desktop: [
 			"/assets/desktop-banner/d1.webp",
@@ -149,6 +149,16 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 			"/assets/desktop-banner/d6.webp",
 			"/assets/desktop-banner/d7.webp",
 			"/assets/desktop-banner/d8.webp",
+			"/assets/desktop-banner/d9.webp",
+			"/assets/desktop-banner/d10.webp",
+			"/assets/desktop-banner/d11.webp",
+			"/assets/desktop-banner/d12.webp",
+			"/assets/desktop-banner/d13.webp",
+			"/assets/desktop-banner/d14.webp",
+			"/assets/desktop-banner/d15.webp",
+			"/assets/desktop-banner/d16.webp",
+			"/assets/desktop-banner/d17.webp",
+			"/assets/desktop-banner/d18.webp",
 		], // 桌面横幅图片
 		mobile: [
 			"/assets/mobile-banner/m1.webp",
