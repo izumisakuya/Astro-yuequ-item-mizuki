@@ -190,17 +190,7 @@ html {
         @apply opacity-0 pointer-events-none
     }
 
-    #toc-inner-wrapper {
-        mask-image: linear-gradient(to bottom, transparent 0%, black 2rem, black calc(100% - 2rem), transparent 100%);
-    }
-
-    .hide-scrollbar {
-        scrollbar-width: thin;
-        -ms-overflow-style: thin;
-    }
-    .hide-scrollbar::-webkit-scrollbar {
-        width: thin;
-    }
+    
 
     .text-90 {
         @apply text-black/90 dark:text-white/90
