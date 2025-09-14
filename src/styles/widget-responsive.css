@@ -42,7 +42,7 @@
 .widget-container {
   min-height: var(--widget-min-height);
   transition: all var(--widget-animation-duration) var(--widget-animation-timing);
-  overflow: hidden;
+  overflow: auto;
 }
 
 /* 组件悬停效果 */

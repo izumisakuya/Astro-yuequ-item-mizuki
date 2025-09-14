@@ -180,7 +180,7 @@
 /* 标签筛选动画 */
 .album-filter-tag {
   position: relative;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .album-filter-tag::before {
