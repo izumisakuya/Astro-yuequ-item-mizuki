@@ -200,6 +200,7 @@ enum I18nKey {
 	syntaxHighlightFailed = "syntaxHighlightFailed",
 	autoSyntaxHighlightFailed = "autoSyntaxHighlightFailed",
 	decryptionError = "decryptionError",
+	gallery = "gallery",
 }
 
 export default I18nKey;

@@ -54,6 +54,16 @@ export const siteConfig: SiteConfig = {
 				"/assets/desktop-banner/d6.webp",
 				"/assets/desktop-banner/d7.webp",
 				"/assets/desktop-banner/d8.webp",
+				"/assets/desktop-banner/d9.webp",
+				"/assets/desktop-banner/d10.webp",
+				"/assets/desktop-banner/d11.webp",
+				"/assets/desktop-banner/d12.webp",
+				"/assets/desktop-banner/d13.webp",
+				"/assets/desktop-banner/d14.webp",
+				"/assets/desktop-banner/d15.webp",
+				"/assets/desktop-banner/d16.webp",
+				"/assets/desktop-banner/d17.webp",
+				"/assets/desktop-banner/d18.webp",
 			], // 桌面横幅图片
 			mobile: [
 				"/assets/mobile-banner/m1.webp",
@@ -72,7 +82,7 @@ export const siteConfig: SiteConfig = {
 		carousel: {
 			enable: true, // 为 true 时：为多张图片启用轮播。为 false 时：从数组中随机显示一张图片
 
-			interval: 5, // 轮播间隔时间（秒）
+			interval: 3, // 轮播间隔时间（秒）
 		},
 
 		// PicFlow API支持(智能图片API)
@@ -90,9 +100,9 @@ export const siteConfig: SiteConfig = {
 
 			subtitle: [
 				"Hi I'm Yugo,Yuequ,イズミさくや,spacerror.",
-				"Carousel Highlight: Innovation",
-				"Carousel Focus: User Experience",
-				"Carousel Spot: Core Advantages",
+				"止れないこの世界で 胸を張って生きるしかない",
+				"星が消えた ビルの海 夢を浮かべて 船が出るわ 幸せのdream boat",
+				"No chance to take,no heart to break",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -193,19 +203,9 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:more-horiz",
 			children: [
 				{
-					name: "Projects",
-					url: "/projects/",
-					icon: "material-symbols:work",
-				},
-				{
 					name: "Skills",
 					url: "/skills/",
 					icon: "material-symbols:psychology",
-				},
-				{
-					name: "Timeline",
-					url: "/timeline/",
-					icon: "material-symbols:timeline",
 				},
 			],
 		},

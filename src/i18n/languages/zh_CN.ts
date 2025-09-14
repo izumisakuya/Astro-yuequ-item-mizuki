@@ -2,11 +2,12 @@ import Key from "../i18nKey";
 import type { Translation } from "../translation";
 
 export const zh_CN: Translation = {
-	[Key.home]: "主页",
-	[Key.about]: "关于我们",
-	[Key.archive]: "归档",
+	[Key.home]: "首页",
+	[Key.about]: "关于此站",
+	[Key.archive]: "足迹",
 	[Key.search]: "搜索",
 	[Key.other]: "其他",
+	[Key.gallery]: "画廊",
 
 	[Key.tags]: "标签",
 	[Key.categories]: "分类",
@@ -42,18 +43,18 @@ export const zh_CN: Translation = {
 	[Key.author]: "作者",
 	[Key.publishedAt]: "发布于",
 	[Key.license]: "许可协议",
-	[Key.anime]: "追番",
-	[Key.diary]: "日记",
+	[Key.anime]: "追剧",
+	[Key.diary]: "随笔",
 
 	// 番剧页面
-	[Key.animeTitle]: "我的追番记录",
-	[Key.animeSubtitle]: "记录我的二次元之旅",
-	[Key.animeList]: "追番列表",
+	[Key.animeTitle]: "我的追剧记录",
+	[Key.animeSubtitle]: "映海沾襟梦回舟",
+	[Key.animeList]: "追剧列表",
 	[Key.animeTotal]: "总数",
-	[Key.animeWatching]: "追番中",
+	[Key.animeWatching]: "追剧中",
 	[Key.animeCompleted]: "已追完",
 	[Key.animeAvgRating]: "平均评分",
-	[Key.animeStatusWatching]: "追番中",
+	[Key.animeStatusWatching]: "追剧中",
 	[Key.animeStatusCompleted]: "已追完",
 	[Key.animeStatusPlanned]: "计划中",
 	[Key.animeYear]: "年份",
@@ -82,7 +83,7 @@ export const zh_CN: Translation = {
 	[Key.albums]: "相册",
 	[Key.albumsSubtitle]: "记录生活中的美好瞬间",
 	[Key.albumsEmpty]: "暂无相册",
-	[Key.albumsEmptyDesc]: "还没有创建任何相册，快去添加一些美好的回忆吧！",
+	[Key.albumsEmptyDesc]: "还没有get到哦~",
 	[Key.albumsBackToList]: "返回相册",
 	[Key.albumsPhotoCount]: "张照片",
 	[Key.albumsPhotosCount]: "张照片",
@@ -132,8 +133,8 @@ export const zh_CN: Translation = {
 	[Key.rssCopyFailed]: "复制失败，请手动复制链接",
 
 	// 技能展示页面
-	[Key.skills]: "技能展示",
-	[Key.skillsSubtitle]: "我的技术技能和专业知识",
+	[Key.skills]: "一些经验",
+	[Key.skillsSubtitle]: "主业和兴趣",
 	[Key.skillsFrontend]: "前端开发",
 	[Key.skillsBackend]: "后端开发",
 	[Key.skillsDatabase]: "数据库",
