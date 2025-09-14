@@ -69,7 +69,7 @@ export type SiteConfig = {
 	};
 	toc: {
 		enable: boolean;
-		depth: 1 | 2 | 3;
+		depth: 1 | 2 | 3 | 4 | 5 | 6; // 目录深度，1-6
 	};
 
 	favicon: Favicon[];
@@ -182,10 +182,10 @@ export type AnnouncementConfig = {
 };
 
 export type MusicPlayerConfig = {
-    meting_api: string;
-    id: string;
-    server: string;
-    type: string;
+	meting_api: string;
+	id: string;
+	server: string;
+	type: string;
 	mode: string;
 	enable: boolean; // 是否启用音乐播放器功能
 };
