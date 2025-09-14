@@ -36,7 +36,7 @@ export const siteConfig: SiteConfig = {
 		service: "client.edge", // 使用 Edge 浏览器翻译服务
 		defaultLanguage: getTranslateLanguageFromConfig(SITE_LANG), // 根据站点语言自动设置默认翻译语言
 		showSelectTag: false, // 不显示默认语言选择下拉菜单，使用自定义按钮
-		autoDiscriminate: true, // 自动检测用户语言
+		autoDiscriminate: false, // 自动检测用户语言
 		ignoreClasses: ["ignore", "banner-title", "banner-subtitle"], // 翻译时忽略的 CSS 类名
 		ignoreTags: ["script", "style", "code", "pre"], // 翻译时忽略的 HTML 标签
 	},
@@ -126,7 +126,7 @@ export const siteConfig: SiteConfig = {
 	},
 	toc: {
 		enable: true, // 启用目录功能
-		depth: 3, // 目录深度，1-6，1 表示只显示 h1 标题，2 表示显示 h1 和 h2 标题，依此类推
+		depth: 5, // 目录深度，1-6，1 表示只显示 h1 标题，2 表示显示 h1 和 h2 标题，依此类推
 	},
 	favicon: [
 		// 留空以使用默认 favicon
@@ -263,7 +263,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	meting_api: "",
 	id: "",
 	server: "",
-	type: ""
+	type: "",
 };
 
 export const footerConfig: FooterConfig = {
@@ -305,7 +305,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 是否启用该组件（现在通过统一配置控制）
 			enable: true,
 			// 组件显示顺序
-			order: 2,
+			order: 3,
 			// 组件位置："top" 表示固定在顶部
 			position: "top",
 			// CSS 类名
@@ -319,7 +319,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 是否启用该组件
 			enable: true,
 			// 组件显示顺序
-			order: 3,
+			order: 4,
 			// 组件位置："sticky" 表示粘性定位，可滚动
 			position: "sticky",
 			// CSS 类名
@@ -338,7 +338,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 是否启用该组件
 			enable: true,
 			// 组件显示顺序
-			order: 4,
+			order: 5,
 			// 组件位置："sticky" 表示粘性定位
 			position: "sticky",
 			// CSS 类名
@@ -351,7 +351,13 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 				collapseThreshold: 20,
 			},
 		},
-			{ type: "toc", enable: true, position: "sticky", order: 400, class: "pb-4 card-base onload-animation",  },//大纲移到左下角
+		{
+			type: "toc",
+			enable: true,
+			position: "sticky",
+			order: 2,
+			class: "pb-4 card-base onload-animation",
+		}, //大纲移到左下角
 	],
 
 	// 默认动画配置
@@ -444,4 +450,3 @@ export const widgetConfigs = {
 	fullscreenWallpaper: fullscreenWallpaperConfig,
 	pio: pioConfig, // 添加 pio 配置
 } as const;
-
