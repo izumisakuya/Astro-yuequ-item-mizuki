@@ -195,8 +195,8 @@ html {
     }
 
     .hide-scrollbar {
-        scrollbar-width: none;
-        -ms-overflow-style: none;
+        scrollbar-width: thin;
+        -ms-overflow-style: thin;
     }
     .hide-scrollbar::-webkit-scrollbar {
         display: none;
