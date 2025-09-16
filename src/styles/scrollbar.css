@@ -1,6 +1,6 @@
 .scrollbar-base.os-scrollbar {
     transition: all 0.2s;
-    pointer-events: unset;
+    pointer-events: auto;
 }
 
 .scrollbar-base.os-scrollbar.os-scrollbar-horizontal {
