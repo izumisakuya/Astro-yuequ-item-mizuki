@@ -225,7 +225,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "乐曲",
-	bio: "Well,I'm really don't know how to say,but I guess I love u.",
+	bio: "Well,I really don't know how to say,but I guess I love u.",
 	links: [],
 	// Umami统计部份，记得在layout插入Umami的head标签
 	umami: {
