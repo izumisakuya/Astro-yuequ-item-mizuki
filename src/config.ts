@@ -141,8 +141,11 @@ export const siteConfig: SiteConfig = {
 	// 字体配置
 	font: {
 		zenMaruGothic: {
-			enable: true, // 启用全局圆体
+			enable: false, // 启用全局圆体
 		},
+		yourCustomFont: {
+			enable: true, // 启用您的自定义字体
+    },
 	},
 };
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {

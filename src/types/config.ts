@@ -26,6 +26,9 @@ export type SiteConfig = {
 		zenMaruGothic: {
 			enable: boolean; // 是否使用 ZenMaruGothic-Black 作为全局字体
 		};
+		yourCustomFont: {
+        enable: boolean; // 启用您的自定义字体
+    };
 	};
 
 	translate?: {
