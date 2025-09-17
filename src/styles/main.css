@@ -214,11 +214,11 @@ html {
     }
 
     .hide-scrollbar {
-        scrollbar-width: none;
-        -ms-overflow-style: none;
+        scrollbar-width: thin;
+        -ms-overflow-style: auto;
     }
     .hide-scrollbar::-webkit-scrollbar {
-        display: none;
+        display: block;
     }
     .text-90 {
         @apply text-black/90 dark:text-white/90
@@ -378,12 +378,17 @@ table-of-contents:empty { display: none; }
 
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
+  border-radius:2px;
 }
 
 ::-webkit-scrollbar-thumb {
   background: #888;
+  border-radius:10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+::-webkit-scrollbar-corner {
+    background: #888;
 }
