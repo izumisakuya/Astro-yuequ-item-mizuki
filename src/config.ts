@@ -1,4 +1,4 @@
-import { factory } from "typescript";
+
 import type {
 	AnnouncementConfig,
 	CommentConfig,
@@ -127,7 +127,9 @@ export const siteConfig: SiteConfig = {
 	toc: {
 		enable: true, // 启用目录功能
 		depth: 5, // 目录深度，1-6，1 表示只显示 h1 标题，2 表示显示 h1 和 h2 标题，依此类推
+		
 	},
+	
 	favicon: [
 		// 留空以使用默认 favicon
 		// {
@@ -136,6 +138,12 @@ export const siteConfig: SiteConfig = {
 		//   sizes: '32x32',              // 可选，图标大小
 		// }
 	],
+	// 字体配置
+	font: {
+		zenMaruGothic: {
+			enable: true, // 启用全局圆体
+		},
+	},
 };
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	enable: false, // 启用全屏壁纸功能,非Banner模式下生效
