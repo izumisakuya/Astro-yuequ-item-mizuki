@@ -213,7 +213,7 @@ const bannerOffset =
 			"lg:is-home": isHomePage, 
 			"enable-banner": enableBanner, 
 			"zen-maru-gothic-enabled": siteConfig.font.zenMaruGothic.enable
-			'your-font-enabled': siteConfig.font.yourCustomFont.enable
+			"your-font-enabled": siteConfig.font.yourCustomFont.enable
 			}
 			]
 			}
