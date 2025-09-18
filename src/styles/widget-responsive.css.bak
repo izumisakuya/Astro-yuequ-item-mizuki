@@ -318,7 +318,7 @@
 /* 加载状态 */
 .widget-loading {
   position: relative;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .widget-loading::before {
