@@ -27,7 +27,7 @@
 /* 照片悬停效果 */
 .photo-container {
   position: relative;
-  overflow: auto;
+  overflow: hidden;
   border-radius: 0.5rem;
 }
 

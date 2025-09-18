@@ -29,7 +29,6 @@ interface Props {
 	description?: string;
 	lang?: string;
 	setOGTypeArticle?: boolean;
-	postSlug?: string;
 	headings?: MarkdownHeading[];
 }
 
@@ -97,7 +96,6 @@ const {
 	description,
 	lang,
 	setOGTypeArticle,
-	postSlug,
 	headings = [],
 } = Astro.props;
 const hasBannerCredit =
@@ -171,7 +169,7 @@ const transparentClass = shouldEnableTransparency
 	: "";
 ---
 
-<Layout title={title} banner={banner} description={description} lang={lang} setOGTypeArticle={setOGTypeArticle} postSlug={postSlug}>
+<Layout title={title} banner={banner} description={description} lang={lang} setOGTypeArticle={setOGTypeArticle}>
 
 <!-- 全屏壁纸 - 仅在banner关闭且全屏壁纸启用时显示 -->
 {!siteConfig.banner.enable && fullscreenWallpaperConfig.enable && (
@@ -270,7 +268,7 @@ const transparentClass = shouldEnableTransparency
             <div class="w-4/5 lg:w-3/4 text-center mb-0">
                 <div class="flex flex-col">
                     {siteConfig.banner.homeText?.title && (
-                        <h1 class="banner-title text-6xl lg:text-8xl text-white drop-shadow-lg mb-2 lg:mb-4">
+                        <h1 class="banner-title text-6xl lg:text-8xl font-bold text-white drop-shadow-lg mb-2 lg:mb-4">
                             {siteConfig.banner.homeText.title}
                         </h1>
                     )}
@@ -417,7 +415,6 @@ const transparentClass = shouldEnableTransparency
 .banner-title {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     animation: fadeInUp 1s ease-out;
-    font-weight: bold;
 }
 
 .banner-subtitle {
@@ -660,7 +657,7 @@ const transparentClass = shouldEnableTransparency
     
     /* 确保轮播容器有正确的overflow设置 */
     #banner-carousel {
-        overflow: auto !important;
+        overflow: hidden !important;
     }
     
     /* 波浪效果恢复默认 */
@@ -700,7 +697,7 @@ const transparentClass = shouldEnableTransparency
     
     /* 确保轮播容器有正确的overflow设置 */
     #banner-carousel {
-        overflow: auto !important;
+        overflow: hidden !important;
     }
     
     /* 移动端banner加载动画优化 */
