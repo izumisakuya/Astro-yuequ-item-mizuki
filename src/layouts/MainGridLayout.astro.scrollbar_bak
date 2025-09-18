@@ -660,7 +660,7 @@ const transparentClass = shouldEnableTransparency
     
     /* 确保轮播容器有正确的overflow设置 */
     #banner-carousel {
-        overflow: auto !important;
+        overflow: hidden !important;
     }
     
     /* 波浪效果恢复默认 */
@@ -700,7 +700,7 @@ const transparentClass = shouldEnableTransparency
     
     /* 确保轮播容器有正确的overflow设置 */
     #banner-carousel {
-        overflow: auto !important;
+        overflow: hidden !important;
     }
     
     /* 移动端banner加载动画优化 */

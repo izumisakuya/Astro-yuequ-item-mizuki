@@ -267,13 +267,13 @@ const getCategoryText = (category: string) => {
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
-    overflow: auto;
+    overflow: hidden;
   }
   
   .line-clamp-2 {
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
-    overflow: auto;
+    overflow: hidden;
   }
 </style>

@@ -116,7 +116,7 @@ function formatTime(dateString: string): string {
 		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark, var(--primary)) 100%);
 		color: white;
 		position: relative;
-		overflow: auto;
+		overflow: hidden;
 	}
 	
 	.header-content {
